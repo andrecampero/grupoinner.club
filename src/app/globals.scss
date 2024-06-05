@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://db.onlinewebfonts.com/c/65dc7cf829f8009cc66f748c1b1d426b?family=Domaine+Sans+Fine"); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #000;
+  color: #FFF;
+}
+
+@font-face {
+  font-family: "Domaine Sans Fine";
+  src: url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.eot");
+  src: url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/65dc7cf829f8009cc66f748c1b1d426b.svg#Domaine Sans Fine")format("svg");
+}
